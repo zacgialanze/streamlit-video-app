@@ -133,3 +133,11 @@ def stitch_clips(clips, total_duration, aspect):
         safe_print(f"🕒 Final stitched video duration (according to ffprobe): {probe.stdout.strip()} seconds")
 
     return final
+
+def make_video(topic, duration, clips, aspect):
+    downloaded = download_pexels_videos(topic, clips)
+    if not downloaded:
+        downloaded = download_giphy_videos(topic, clips)
+    if not downloaded:
+        return None
+    return stitch_clips(downloaded, duration, aspect)
