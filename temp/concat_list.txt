@@ -1,0 +1,8 @@
+file 'C:/broll_stitcher/temp/norm_1.mp4'
+file 'C:/broll_stitcher/temp/norm_2.mp4'
+file 'C:/broll_stitcher/temp/norm_3.mp4'
+file 'C:/broll_stitcher/temp/norm_4.mp4'
+file 'C:/broll_stitcher/temp/norm_5.mp4'
+file 'C:/broll_stitcher/temp/norm_6.mp4'
+file 'C:/broll_stitcher/temp/norm_7.mp4'
+file 'C:/broll_stitcher/temp/norm_8.mp4'
